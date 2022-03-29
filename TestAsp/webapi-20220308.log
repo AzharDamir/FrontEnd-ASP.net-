@@ -1,0 +1,170 @@
+[2022-03-08 14:19:24.432 +01:00  INF]  User profile is available. Using 'C:\Users\azhar damir\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-03-08 14:19:25.552 +01:00  INF]  Entity Framework Core 6.0.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.2' with options: None
+[2022-03-08 14:19:25.863 +01:00  INF]  Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[2022-03-08 14:19:26.134 +01:00  INF]  Now listening on: https://localhost:7197
+[2022-03-08 14:19:26.134 +01:00  INF]  Now listening on: http://localhost:5197
+[2022-03-08 14:19:26.137 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-03-08 14:19:26.137 +01:00  INF]  Hosting environment: Development
+[2022-03-08 14:19:26.137 +01:00  INF]  Content root path: C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\
+[2022-03-08 14:19:28.046 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/ - -
+[2022-03-08 14:19:28.115 +01:00  INF]  Executing endpoint '/Index'
+[2022-03-08 14:19:28.193 +01:00  INF]  Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+[2022-03-08 14:19:28.204 +01:00  INF]  Executing handler method TestAsp.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2022-03-08 14:19:28.205 +01:00  INF]  Executed handler method OnGet, returned result .
+[2022-03-08 14:19:28.209 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-08 14:19:28.209 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-08 14:19:28.432 +01:00  INF]  Executed page /Index in 234.3178ms
+[2022-03-08 14:19:28.443 +01:00  INF]  Executed endpoint '/Index'
+[2022-03-08 14:19:28.511 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/ - - - 200 - text/html;+charset=utf-8 468.1721ms
+[2022-03-08 14:19:28.531 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/TestAsp.styles.css?v=davCA8E94iXESeKXpDVrgzSNTx-pzZo1b1dVC-R7JKQ - -
+[2022-03-08 14:19:28.531 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/lib/jquery/dist/jquery.min.js - -
+[2022-03-08 14:19:28.531 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/css/site.css?v=K-QuMF5SWufdbMXFh-2rWpPtzOZJvWNj64e8wzrKmCg - -
+[2022-03-08 14:19:28.531 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/lib/bootstrap/dist/css/bootstrap.min.css - -
+[2022-03-08 14:19:28.532 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+[2022-03-08 14:19:28.538 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/_framework/aspnetcore-browser-refresh.js - -
+[2022-03-08 14:19:28.564 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+[2022-03-08 14:19:28.568 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/_framework/aspnetcore-browser-refresh.js - - - 200 11941 application/javascript;+charset=utf-8 30.1700ms
+[2022-03-08 14:19:28.591 +01:00  INF]  The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+[2022-03-08 14:19:28.591 +01:00  INF]  The file /css/site.css was not modified
+[2022-03-08 14:19:28.591 +01:00  INF]  The file /js/site.js was not modified
+[2022-03-08 14:19:28.591 +01:00  INF]  The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+[2022-03-08 14:19:28.591 +01:00  INF]  The file /lib/jquery/dist/jquery.min.js was not modified
+[2022-03-08 14:19:28.591 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 60.2639ms
+[2022-03-08 14:19:28.591 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 27.0724ms
+[2022-03-08 14:19:28.591 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/css/site.css?v=K-QuMF5SWufdbMXFh-2rWpPtzOZJvWNj64e8wzrKmCg - - - 304 - text/css 60.2613ms
+[2022-03-08 14:19:28.591 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 59.9097ms
+[2022-03-08 14:19:28.591 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 60.2390ms
+[2022-03-08 14:19:28.597 +01:00  INF]  Sending file. Request path: '/TestAsp.styles.css'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\obj\Debug\net6.0\scopedcss\bundle\TestAsp.styles.css'
+[2022-03-08 14:19:28.597 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/TestAsp.styles.css?v=davCA8E94iXESeKXpDVrgzSNTx-pzZo1b1dVC-R7JKQ - - - 200 1124 text/css 66.1251ms
+[2022-03-08 14:21:23.379 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/api/controll - -
+[2022-03-08 14:21:23.428 +01:00  INF]  Executing endpoint 'TestAsp.Controllers.ValuesController.Get (TestAsp)'
+[2022-03-08 14:21:23.440 +01:00  INF]  Route matched with {action = "Get", controller = "Values", page = ""}. Executing controller action with signature System.Collections.Generic.IList`1[TestAsp.Models.Livre] Get() on controller TestAsp.Controllers.ValuesController (TestAsp).
+[2022-03-08 14:21:23.463 +01:00  INF]   executing...
+[2022-03-08 14:21:23.480 +01:00  INF]  Entity Framework Core 6.0.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.2' with options: None
+[2022-03-08 14:21:23.691 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."id", "l"."titre"
+FROM "Livres" AS "l"
+[2022-03-08 14:21:23.725 +01:00  INF]  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestAsp.Models.Livre, TestAsp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-03-08 14:21:23.736 +01:00  INF]  Executed action TestAsp.Controllers.ValuesController.Get (TestAsp) in 294.9076ms
+[2022-03-08 14:21:23.736 +01:00  INF]  Executed endpoint 'TestAsp.Controllers.ValuesController.Get (TestAsp)'
+[2022-03-08 14:21:23.738 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/api/controll - - - 200 - application/json;+charset=utf-8 361.6845ms
+[2022-03-08 15:56:45.973 +01:00  INF]  User profile is available. Using 'C:\Users\azhar damir\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-03-08 15:56:47.004 +01:00  INF]  Entity Framework Core 6.0.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.2' with options: None
+[2022-03-08 15:56:47.230 +01:00  INF]  Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[2022-03-08 15:56:47.706 +01:00  INF]  Now listening on: https://localhost:7197
+[2022-03-08 15:56:47.707 +01:00  INF]  Now listening on: http://localhost:5197
+[2022-03-08 15:56:47.710 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-03-08 15:56:47.710 +01:00  INF]  Hosting environment: Development
+[2022-03-08 15:56:47.710 +01:00  INF]  Content root path: C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\
+[2022-03-08 15:56:49.503 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/ - -
+[2022-03-08 15:56:49.584 +01:00  INF]  Executing endpoint '/Index'
+[2022-03-08 15:56:49.618 +01:00  INF]  Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+[2022-03-08 15:56:49.630 +01:00  INF]  Executing handler method TestAsp.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2022-03-08 15:56:49.630 +01:00  INF]  Executed handler method OnGet, returned result .
+[2022-03-08 15:56:49.635 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-08 15:56:49.636 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-08 15:56:49.824 +01:00  INF]  Executed page /Index in 200.9243ms
+[2022-03-08 15:56:49.825 +01:00  INF]  Executed endpoint '/Index'
+[2022-03-08 15:56:49.952 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/ - - - 200 - text/html;+charset=utf-8 452.2432ms
+[2022-03-08 15:56:49.983 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/_framework/aspnetcore-browser-refresh.js - -
+[2022-03-08 15:56:49.989 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/_framework/aspnetcore-browser-refresh.js - - - 200 11941 application/javascript;+charset=utf-8 5.9976ms
+[2022-03-08 16:04:14.607 +01:00  INF]  User profile is available. Using 'C:\Users\azhar damir\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-03-08 16:04:15.745 +01:00  INF]  Entity Framework Core 6.0.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.2' with options: None
+[2022-03-08 16:04:15.947 +01:00  INF]  Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[2022-03-08 16:04:16.097 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-03-08 16:04:16.097 +01:00  INF]  Hosting environment: Development
+[2022-03-08 16:04:16.097 +01:00  INF]  Content root path: C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\
+[2022-03-08 16:04:16.138 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/ - -
+[2022-03-08 16:04:16.181 +01:00  WRN]  Failed to determine the https port for redirect.
+[2022-03-08 16:04:16.225 +01:00  INF]  Executing endpoint '/Index'
+[2022-03-08 16:04:16.300 +01:00  INF]  Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+[2022-03-08 16:04:16.318 +01:00  INF]  Executing handler method TestAsp.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2022-03-08 16:04:16.319 +01:00  INF]  Executed handler method OnGet, returned result .
+[2022-03-08 16:04:16.326 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-08 16:04:16.326 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-08 16:04:16.687 +01:00  INF]  Executed page /Index in 380.3254ms
+[2022-03-08 16:04:16.690 +01:00  INF]  Executed endpoint '/Index'
+[2022-03-08 16:04:16.740 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/ - - - 200 - text/html;+charset=utf-8 605.0381ms
+[2022-03-08 16:04:16.852 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+[2022-03-08 16:04:16.919 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/lib/jquery/dist/jquery.min.js - -
+[2022-03-08 16:04:16.920 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/TestAsp.styles.css?v=davCA8E94iXESeKXpDVrgzSNTx-pzZo1b1dVC-R7JKQ - -
+[2022-03-08 16:04:16.931 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/css/site.css?v=K-QuMF5SWufdbMXFh-2rWpPtzOZJvWNj64e8wzrKmCg - -
+[2022-03-08 16:04:16.938 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+[2022-03-08 16:04:16.943 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/lib/bootstrap/dist/css/bootstrap.min.css - -
+[2022-03-08 16:04:16.978 +01:00  INF]  Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\wwwroot\js\site.js'
+[2022-03-08 16:04:16.979 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 41.1916ms
+[2022-03-08 16:04:16.979 +01:00  INF]  Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\wwwroot\css\site.css'
+[2022-03-08 16:04:16.980 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/css/site.css?v=K-QuMF5SWufdbMXFh-2rWpPtzOZJvWNj64e8wzrKmCg - - - 200 375 text/css 48.5873ms
+[2022-03-08 16:04:16.981 +01:00  INF]  Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+[2022-03-08 16:04:16.981 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/_framework/aspnetcore-browser-refresh.js - -
+[2022-03-08 16:04:16.983 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 41.2124ms
+[2022-03-08 16:04:16.984 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/_framework/aspnetcore-browser-refresh.js - - - 200 11941 application/javascript;+charset=utf-8 2.5993ms
+[2022-03-08 16:04:17.017 +01:00  INF]  Sending file. Request path: '/TestAsp.styles.css'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\obj\Debug\net6.0\scopedcss\bundle\TestAsp.styles.css'
+[2022-03-08 16:04:17.018 +01:00  INF]  Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+[2022-03-08 16:04:17.025 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/TestAsp.styles.css?v=davCA8E94iXESeKXpDVrgzSNTx-pzZo1b1dVC-R7JKQ - - - 200 1124 text/css 98.6069ms
+[2022-03-08 16:04:17.031 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 179.0826ms
+[2022-03-08 16:04:17.033 +01:00  INF]  Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\wwwroot\lib\jquery\dist\jquery.min.js'
+[2022-03-08 16:04:17.044 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 125.2162ms
+[2022-03-08 16:04:17.409 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/favicon.ico - -
+[2022-03-08 16:04:17.421 +01:00  INF]  Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\wwwroot\favicon.ico'
+[2022-03-08 16:04:17.421 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/favicon.ico - - - 200 5430 image/x-icon 12.3956ms
+[2022-03-08 16:04:29.777 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/ - -
+[2022-03-08 16:04:29.782 +01:00  INF]  Executing endpoint '/Index'
+[2022-03-08 16:04:29.783 +01:00  INF]  Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+[2022-03-08 16:04:29.783 +01:00  INF]  Executing handler method TestAsp.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2022-03-08 16:04:29.783 +01:00  INF]  Executed handler method OnGet, returned result .
+[2022-03-08 16:04:29.784 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-08 16:04:29.784 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-08 16:04:29.830 +01:00  INF]  Executed page /Index in 47.4716ms
+[2022-03-08 16:04:29.830 +01:00  INF]  Executed endpoint '/Index'
+[2022-03-08 16:04:29.834 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/ - - - 200 - text/html;+charset=utf-8 57.2916ms
+[2022-03-08 16:04:29.951 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/lib/bootstrap/dist/css/bootstrap.min.css - -
+[2022-03-08 16:04:29.957 +01:00  INF]  Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+[2022-03-08 16:04:29.963 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 12.5275ms
+[2022-03-08 16:04:29.987 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/TestAsp.styles.css?v=davCA8E94iXESeKXpDVrgzSNTx-pzZo1b1dVC-R7JKQ - -
+[2022-03-08 16:04:29.987 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/css/site.css?v=K-QuMF5SWufdbMXFh-2rWpPtzOZJvWNj64e8wzrKmCg - -
+[2022-03-08 16:04:29.992 +01:00  INF]  Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\wwwroot\css\site.css'
+[2022-03-08 16:04:29.993 +01:00  INF]  Sending file. Request path: '/TestAsp.styles.css'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\obj\Debug\net6.0\scopedcss\bundle\TestAsp.styles.css'
+[2022-03-08 16:04:29.994 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/css/site.css?v=K-QuMF5SWufdbMXFh-2rWpPtzOZJvWNj64e8wzrKmCg - - - 200 375 text/css 6.4935ms
+[2022-03-08 16:04:29.994 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/TestAsp.styles.css?v=davCA8E94iXESeKXpDVrgzSNTx-pzZo1b1dVC-R7JKQ - - - 200 1124 text/css 7.2018ms
+[2022-03-08 16:04:30.006 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/lib/jquery/dist/jquery.min.js - -
+[2022-03-08 16:04:30.006 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+[2022-03-08 16:04:30.007 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/_framework/aspnetcore-browser-refresh.js - -
+[2022-03-08 16:04:30.011 +01:00  INF]  Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\wwwroot\js\site.js'
+[2022-03-08 16:04:30.019 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 12.3165ms
+[2022-03-08 16:04:30.019 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/_framework/aspnetcore-browser-refresh.js - - - 200 11941 application/javascript;+charset=utf-8 11.6690ms
+[2022-03-08 16:04:30.019 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+[2022-03-08 16:04:30.021 +01:00  INF]  Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\wwwroot\lib\jquery\dist\jquery.min.js'
+[2022-03-08 16:04:30.024 +01:00  INF]  Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+[2022-03-08 16:04:30.028 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 21.5534ms
+[2022-03-08 16:04:30.028 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 9.3693ms
+[2022-03-08 16:04:30.525 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/favicon.ico - -
+[2022-03-08 16:04:30.529 +01:00  INF]  Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\wwwroot\favicon.ico'
+[2022-03-08 16:04:30.529 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/favicon.ico - - - 200 5430 image/x-icon 4.4594ms
+[2022-03-08 16:04:50.346 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/ - -
+[2022-03-08 16:04:50.361 +01:00  INF]  Executing endpoint '/Index'
+[2022-03-08 16:04:50.361 +01:00  INF]  Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+[2022-03-08 16:04:50.361 +01:00  INF]  Executing handler method TestAsp.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2022-03-08 16:04:50.361 +01:00  INF]  Executed handler method OnGet, returned result .
+[2022-03-08 16:04:50.362 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-08 16:04:50.362 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-08 16:04:50.383 +01:00  INF]  Executed page /Index in 21.8175ms
+[2022-03-08 16:04:50.383 +01:00  INF]  Executed endpoint '/Index'
+[2022-03-08 16:04:50.387 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/ - - - 200 - text/html;+charset=utf-8 41.1795ms
+[2022-03-08 16:04:50.477 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/_framework/aspnetcore-browser-refresh.js - -
+[2022-03-08 16:04:50.479 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/_framework/aspnetcore-browser-refresh.js - - - 200 11941 application/javascript;+charset=utf-8 1.9315ms
+[2022-03-08 16:05:02.570 +01:00  INF]  Request starting HTTP/1.1 GET http://localhost:43589/api/controll - -
+[2022-03-08 16:05:02.577 +01:00  INF]  Executing endpoint 'TestAsp.Controllers.ValuesController.Get (TestAsp)'
+[2022-03-08 16:05:02.607 +01:00  INF]  Route matched with {action = "Get", controller = "Values", page = ""}. Executing controller action with signature System.Collections.Generic.IList`1[TestAsp.Models.Livre] Get() on controller TestAsp.Controllers.ValuesController (TestAsp).
+[2022-03-08 16:05:02.644 +01:00  INF]   executing...
+[2022-03-08 16:05:02.680 +01:00  INF]  Entity Framework Core 6.0.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.2' with options: None
+[2022-03-08 16:05:04.017 +01:00  INF]  Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."id", "l"."titre"
+FROM "Livres" AS "l"
+[2022-03-08 16:05:04.190 +01:00  INF]  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestAsp.Models.Livre, TestAsp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-03-08 16:05:04.211 +01:00  INF]  Executed action TestAsp.Controllers.ValuesController.Get (TestAsp) in 1602.8212ms
+[2022-03-08 16:05:04.211 +01:00  INF]  Executed endpoint 'TestAsp.Controllers.ValuesController.Get (TestAsp)'
+[2022-03-08 16:05:04.217 +01:00  INF]  Request finished HTTP/1.1 GET http://localhost:43589/api/controll - - - 200 - application/json;+charset=utf-8 1647.6188ms

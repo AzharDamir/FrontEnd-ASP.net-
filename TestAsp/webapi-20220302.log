@@ -1,0 +1,54 @@
+[2022-03-02 11:39:22.183 +01:00  INF]  User profile is available. Using 'C:\Users\azhar damir\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-03-02 11:39:23.212 +01:00  INF]  Entity Framework Core 6.0.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.2' with options: None
+[2022-03-02 11:39:23.375 +01:00  INF]  Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[2022-03-02 11:39:23.642 +01:00  INF]  Now listening on: https://localhost:7197
+[2022-03-02 11:39:23.643 +01:00  INF]  Now listening on: http://localhost:5197
+[2022-03-02 11:39:23.646 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-03-02 11:39:23.647 +01:00  INF]  Hosting environment: Development
+[2022-03-02 11:39:23.647 +01:00  INF]  Content root path: C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\
+[2022-03-02 11:39:24.802 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/ - -
+[2022-03-02 11:39:24.907 +01:00  INF]  Executing endpoint '/Index'
+[2022-03-02 11:39:24.970 +01:00  INF]  Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+[2022-03-02 11:39:24.996 +01:00  INF]  Executing handler method TestAsp.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2022-03-02 11:39:24.997 +01:00  INF]  Executed handler method OnGet, returned result .
+[2022-03-02 11:39:25.009 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-02 11:39:25.010 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-02 11:39:25.319 +01:00  INF]  Executed page /Index in 336.9298ms
+[2022-03-02 11:39:25.320 +01:00  INF]  Executed endpoint '/Index'
+[2022-03-02 11:39:25.383 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/ - - - 200 - text/html;+charset=utf-8 583.6970ms
+[2022-03-02 11:39:25.422 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/_framework/aspnetcore-browser-refresh.js - -
+[2022-03-02 11:39:25.431 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/_framework/aspnetcore-browser-refresh.js - - - 200 11941 application/javascript;+charset=utf-8 8.6443ms
+[2022-03-02 11:39:53.267 +01:00  INF]  User profile is available. Using 'C:\Users\azhar damir\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-03-02 11:39:54.146 +01:00  INF]  Entity Framework Core 6.0.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.2' with options: None
+[2022-03-02 11:39:54.273 +01:00  INF]  Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[2022-03-02 11:39:54.488 +01:00  INF]  Now listening on: https://localhost:7197
+[2022-03-02 11:39:54.488 +01:00  INF]  Now listening on: http://localhost:5197
+[2022-03-02 11:39:54.492 +01:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-03-02 11:39:54.492 +01:00  INF]  Hosting environment: Development
+[2022-03-02 11:39:54.493 +01:00  INF]  Content root path: C:\Users\azhar damir\Source\Repos\TestAsp\TestAsp\
+[2022-03-02 11:39:55.775 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/ - -
+[2022-03-02 11:39:55.850 +01:00  INF]  Executing endpoint '/Index'
+[2022-03-02 11:39:55.880 +01:00  INF]  Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+[2022-03-02 11:39:55.898 +01:00  INF]  Executing handler method TestAsp.Pages.IndexModel.OnGet - ModelState is "Valid"
+[2022-03-02 11:39:55.898 +01:00  INF]  Executed handler method OnGet, returned result .
+[2022-03-02 11:39:55.902 +01:00  INF]  Executing an implicit handler method - ModelState is "Valid"
+[2022-03-02 11:39:55.902 +01:00  INF]  Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+[2022-03-02 11:39:56.088 +01:00  INF]  Executed page /Index in 203.0028ms
+[2022-03-02 11:39:56.089 +01:00  INF]  Executed endpoint '/Index'
+[2022-03-02 11:39:56.123 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/ - - - 200 - text/html;+charset=utf-8 353.3224ms
+[2022-03-02 11:39:56.139 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/_framework/aspnetcore-browser-refresh.js - -
+[2022-03-02 11:39:56.143 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/_framework/aspnetcore-browser-refresh.js - - - 200 11941 application/javascript;+charset=utf-8 3.6380ms
+[2022-03-02 11:40:26.225 +01:00  INF]  Request starting HTTP/2 GET https://localhost:7197/api/controll - -
+[2022-03-02 11:40:26.233 +01:00  INF]  Executing endpoint 'TestAsp.Controllers.ValuesController.Get (TestAsp)'
+[2022-03-02 11:40:26.257 +01:00  INF]  Route matched with {action = "Get", controller = "Values", page = ""}. Executing controller action with signature System.Collections.Generic.IList`1[TestAsp.Models.Livre] Get() on controller TestAsp.Controllers.ValuesController (TestAsp).
+[2022-03-02 11:40:26.286 +01:00  INF]   executing...
+[2022-03-02 11:40:26.309 +01:00  INF]  Entity Framework Core 6.0.2 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.2' with options: None
+[2022-03-02 11:40:26.918 +01:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."id", "l"."titre"
+FROM "Livres" AS "l"
+[2022-03-02 11:40:27.077 +01:00  INF]  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[TestAsp.Models.Livre, TestAsp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-03-02 11:40:27.093 +01:00  INF]  Executed action TestAsp.Controllers.ValuesController.Get (TestAsp) in 835.3803ms
+[2022-03-02 11:40:27.093 +01:00  INF]  Executed endpoint 'TestAsp.Controllers.ValuesController.Get (TestAsp)'
+[2022-03-02 11:40:27.101 +01:00  INF]  Request finished HTTP/2 GET https://localhost:7197/api/controll - - - 200 - application/json;+charset=utf-8 876.1174ms
